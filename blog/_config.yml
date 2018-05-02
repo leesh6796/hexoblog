@@ -85,3 +85,11 @@ archive_generator:
 deploy:
   type: git
   repo: https://github.com/leesh6796/leesh6796.github.io
+
+
+# rss feed auto generator
+feed:
+  type: atom
+  path: feed.xml
+  limit: 20
+  hub:
